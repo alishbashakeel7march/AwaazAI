@@ -1,0 +1,23 @@
+{
+  "name": "awaazai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AwaazAI — a 100% free, voice-first AI assistant for Urdu, Sindhi, Pashto, Punjabi and Balochi speakers in Pakistan.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.115.0",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^1.41.0",
+    "next": "^15.5.25",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

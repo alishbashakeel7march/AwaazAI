@@ -1,0 +1,46 @@
+{
+  "id": "/",
+  "name": "AwaazAI — Free Voice AI for Pakistan",
+  "short_name": "AwaazAI",
+  "description": "A 100% free, voice-first AI assistant that speaks Urdu, Sindhi, Pashto, Punjabi and Balochi. Ask by voice, listen to simple answers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FAF7F1",
+  "theme_color": "#047857",
+  "lang": "ur",
+  "dir": "ltr",
+  "categories": ["education", "utilities", "health"],
+  "icons": [
+    {
+      "src": "/icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Healthcare Guidance",
+      "short_name": "Health",
+      "url": "/?category=health"
+    },
+    {
+      "name": "Financial Literacy",
+      "short_name": "Finance",
+      "url": "/?category=finance"
+    },
+    {
+      "name": "Civic & Legal Rights",
+      "short_name": "Legal",
+      "url": "/?category=legal"
+    }
+  ]
+}
