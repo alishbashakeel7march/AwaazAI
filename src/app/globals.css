@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-arabic: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', serif;
+  --font-nastaliq: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+
+  --color-ink: #F0FDFA;
+  --color-cream: #052524;
+  --color-panel: #0A3231;
+
+  --color-brand-50: #F0FDFA;
+  --color-brand-100: #CCFBF1;
+  --color-brand-200: #99F6E4;
+  --color-brand-300: #5EEAD4;
+  --color-brand-400: #2DD4BF;
+  --color-brand-500: #14B8A6;
+  --color-brand-600: #0D9488;
+  --color-brand-700: #0F766E;
+  --color-brand-800: #115E59;
+  --color-brand-900: #134E4A;
+  --color-brand-950: #042F2E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  background-image:
+    radial-gradient(80rem 40rem at 10% -10%, rgb(45 212 191 / 0.12), transparent 55%),
+    radial-gradient(70rem 35rem at 90% 10%, rgb(16 185 129 / 0.10), transparent 55%),
+    radial-gradient(60rem 30rem at 50% 110%, rgb(20 184 166 / 0.10), transparent 50%);
+  background-attachment: fixed;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Nastaliq script needs generous vertical space to stay legible */
+.font-nastaliq {
+  line-height: 2.2;
+}
+
+::selection {
+  background-color: rgb(45 212 191 / 0.35);
+}
